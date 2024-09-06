@@ -1,0 +1,225 @@
+{
+  // General Settings:
+  "breadcrumbs.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.stickyScroll.enabled": false,
+  "explorer.compactFolders": false,
+  "explorer.sortOrder": "type",
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "off",
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.enabled": false,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "window.title": " ",
+  "window.titleBarStyle": "custom",
+  // "window.zoomLevel": 1.5,
+  "workbench.settings.editor": "json",
+  "workbench.settings.openDefaultSettings": true,
+  "workbench.editor.labelFormat": "short",
+  // "workbench.editor.showTabs": "single",
+  "workbench.layoutControl.enabled": false,
+  "workbench.sideBar.location": "left",
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "none",
+  "zenMode.hideLineNumbers": false,
+
+  // Editor Settings:
+  "editor.accessibilitySupport": "off",
+  "editor.autoIndent": "advanced",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.detectIndentation": true,
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.guides.indentation": false,
+  "editor.hover.delay": 1500,
+  "editor.insertSpaces": true,
+  "editor.lightbulb.enabled": "off",
+  "editor.links": false,
+  "editor.matchBrackets": "never",
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "editor.renderWhitespace": "selection",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.selectionHighlight": false,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 210,
+
+  // Theme Settings:
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "material-icon-theme.saturation": 0.75,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorCustomizations": {
+    "sideBarTitle.foreground": "#00000000",
+    "focusBorder": "#00000000",
+    "scrollbarSlider.background": "#00000000",
+    "scrollbarSlider.hoverBackground": "#00000000",
+    "scrollbarSlider.activeBackground": "#00000000",
+    "statusBarItem.remoteBackground": "#181818",
+    "statusBarItem.remoteForeground": "#d7d7d7",
+    // "activityBarBadge.background": "#d7d7d7",
+    "activityBarBadge.foreground": "#181818"
+  },
+  "editor.tokenColorCustomizations": {
+    // "comments": "#707070"
+  },
+
+  // Material Icon Settings:
+  "material-icon-theme.languages.associations": {
+    "jinja-html": "html"
+  },
+
+  // Font Settings:
+  // "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
+  "editor.fontFamily": "Segoe UI",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 1.2,
+  "editor.letterSpacing": 1,
+
+  // Terminal Settings:
+  "diffEditor.renderSideBySide": true,
+  "explorer.confirmDragAndDrop": false,
+  // "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorBlinking": true,
+  // "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.lineHeight": 1.2,
+
+  // File Settings:
+  "files.associations": {
+    "**/*.css": "tailwindcss",
+    "**/templates/*.html": "jinja-html",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "files.exclude": {
+    "node_modules": true,
+    "**/__pycache__": true,
+    "**/.venv": true
+  },
+
+  // Emmet Settings:
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "astro": "html",
+    "jinja-html": "html"
+  },
+
+  // Formatter Settings:
+  "[html][jinja-html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+
+  // Python Settings:
+  "python.analysis.typeCheckingMode": "strict",
+  "python.testing.pytestEnabled": true,
+  "isort.args": ["--profile", "black"],
+
+  // Git Settings:
+  "git.openRepositoryInParentFolders": "never",
+
+  // HTML Settings:
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapLineLength": 0,
+
+  // CSS Settings:
+  "editor.colorDecorators": true,
+
+  // JavaScript Settings:
+  "javascript.suggest.completeFunctionCalls": true,
+
+  // TypeScript Settings:
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  // Tailwind CSS Settings:
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+
+  // Headwind Settings:
+  "headwind.runOnSave": false,
+  "headwind.classRegex": {
+    "javascript": "(?:\\b(?:class|className|tw)(?:=(?:{\\s*)?)?(?:\\.\\w*)?(?:\\(\\s*\\w*\\s*\\))?[\\\"\\'\\`]((?:[\\w\\s\\-\\/\\:\\.\\[\\]]|\\$\\{(.*?)\\})+)[\\\"\\'\\`]}?)",
+    "javascriptreact": "(?:\\b(?:class|className|tw)(?:=(?:{\\s*)?)?(?:\\.\\w*)?(?:\\(\\s*\\w*\\s*\\))?[\\\"\\'\\`]((?:[\\w\\s\\-\\/\\:\\.\\[\\]]|\\$\\{(.*?)\\})+)[\\\"\\'\\`]}?)",
+    "typescript": "(?:\\b(?:class|className|tw)(?:=(?:{\\s*)?)?(?:\\.\\w*)?(?:\\(\\s*\\w*\\s*\\))?[\\\"\\'\\`]((?:[\\w\\s\\-\\/\\:\\.\\[\\]]|\\$\\{(.*?)\\})+)[\\\"\\'\\`]}?)",
+    "typescriptreact": "(?:\\b(?:class|className|tw)(?:=(?:{\\s*)?)?(?:\\.\\w*)?(?:\\(\\s*\\w*\\s*\\))?[\\\"\\'\\`]((?:[\\w\\s\\-\\/\\:\\.\\[\\]]|\\$\\{(.*?)\\})+)[\\\"\\'\\`]}?)"
+  },
+
+  // EsLint Settings:
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit",
+    "source.fixAll.tslint": "explicit"
+  },
+
+  // Prettier Settings:
+  "prettier.endOfLine": "lf",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "none",
+
+  // SVG Preview Settings:
+  "svgPreview.autoOpen": false,
+
+  // AdvancedNewFile Settings:
+  "advancedNewFile.exclude": {
+    "node_modules": true,
+    "dist": true
+  },
+  "advancedNewFile.convenienceOptions": ["last", "current", "root"],
+
+  // Misc. Settings:
+  "remote.autoForwardPortsSource": "hybrid",
+  "workbench.colorTheme": "Default Light+"
+  // "workbench.activityBar.location": "hidden"
+}
