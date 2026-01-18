@@ -34,7 +34,7 @@
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.detectIndentation": true,
   "editor.guides.highlightActiveIndentation": false,
-  "editor.guides.indentation": false,
+  "editor.guides.indentation": true,
   "editor.hover.delay": 1500,
   "editor.insertSpaces": true,
   "editor.lightbulb.enabled": "off",
@@ -51,10 +51,10 @@
   "editor.scrollbar.verticalScrollbarSize": 0,
   "editor.selectionHighlight": false,
   "editor.semanticHighlighting.enabled": false,
-  "editor.smoothScrolling": true,
+  // "editor.smoothScrolling": true,
   "editor.stickyScroll.scrollWithEditor": false,
-  "editor.tabSize": 2,
-  "editor.wordWrap": "wordWrapColumn",
+  // "editor.tabSize": 4,
+  "editor.wordWrap": "on",
   "editor.wordWrapColumn": 210,
 
   // Theme Settings:
@@ -64,15 +64,15 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.colorCustomizations": {
-    "sideBarTitle.foreground": "#00000000",
-    "focusBorder": "#00000000",
-    "scrollbarSlider.background": "#00000000",
-    "scrollbarSlider.hoverBackground": "#00000000",
-    "scrollbarSlider.activeBackground": "#00000000",
-    "statusBarItem.remoteBackground": "#181818",
-    "statusBarItem.remoteForeground": "#d7d7d7",
+    // "sideBarTitle.foreground": "#00000000",
+    // "focusBorder": "#00000000",
+    // "scrollbarSlider.background": "#00000000"
+    // "scrollbarSlider.hoverBackground": "#00000000",
+    // "scrollbarSlider.activeBackground": "#00000000",
+    // "statusBarItem.remoteBackground": "#181818",
+    // "statusBarItem.remoteForeground": "#d7d7d7",
     // "activityBarBadge.background": "#d7d7d7",
-    "activityBarBadge.foreground": "#181818"
+    // "activityBarBadge.foreground": "#181818"
   },
   "editor.tokenColorCustomizations": {
     // "comments": "#707070"
@@ -86,7 +86,7 @@
   // Font Settings:
   // "editor.fontFamily": "'JetBrainsMono Nerd Font', monospace",
   "editor.fontFamily": "Segoe UI",
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "editor.lineHeight": 1.2,
   "editor.letterSpacing": 1,
 
@@ -102,7 +102,7 @@
 
   // File Settings:
   "files.associations": {
-    "**/*.css": "tailwindcss",
+    // "**/*.css": "tailwindcss",
     "**/templates/*.html": "jinja-html",
     "**/requirements{/**,*}.{txt,in}": "pip-requirements"
   },
@@ -220,6 +220,6 @@
 
   // Misc. Settings:
   "remote.autoForwardPortsSource": "hybrid",
-  "workbench.colorTheme": "Default Light+"
+  "workbench.colorTheme": "Default Light Modern"
   // "workbench.activityBar.location": "hidden"
 }
